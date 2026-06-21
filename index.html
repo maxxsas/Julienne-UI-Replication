@@ -64,26 +64,83 @@
 
 
 
-    <div class="main-area">
+    <div class="main-area"
+    >
+      <div id="configuration-main-container">user configuration area</div>
 
       <div class="image-section-container">
-
-        <!-- <img class="food-thumbnail" src="https://firebasestorage.go
-        ogleapis.com/v0/b/julienne-3555a.appspot.com/o/crop
-        ped-images%2FD713891E-8F36-4F54-8783-25818E0EC497.jpg?alt=media&tok
-        en=8f826a4c-d8fd-4f64-84aa-41813f2ce1e6"> -->
 
         <img class="food-thumbnail" src="https://firebasestorage.googleapis.com/v0/b/julienne-3555a.appspot.com/o/cropped-images%2F597D699C-BBBB-4333-BCE4-383487EE3AF7.jpg?alt=media&token=c5ca8d36-75ab-476d-9544-53f7de8a38e9">
         
         <div id="qr-code-area"> 
           <img class="qr-code" src="data:image/png;base64,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">
         </div>
-        <div id="cooking-process-video"> cooking video</div>
+        <div id="cooking-process-video">
+
+          <img class="video-thumbnail" src="images/cooking-1.png">
+
+          <div class="play">
+            <i class="ph-fill ph-play"></i>
+          </div>
+
+        </div>
         
       </div>
-      <div class="content-section-container">2</div>
+      <div class="content-section-container">
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+          <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+          <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+          <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+          <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+        <p>test <br>test </p>
+      
+      </div>
 
-      <div id="configuration-main-container">user configuration area</div>
+      
 
 
     </div>

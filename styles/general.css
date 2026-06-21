@@ -1,5 +1,6 @@
 body{
-  background-color: gray;
+  background-color: rgb(255, 255, 255);
   padding: 0;
   margin: 0;
+  position: relative;
 }
