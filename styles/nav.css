@@ -1,8 +1,8 @@
 .nav-main-container{
   display: flex;
   flex-direction: row;
-  height: 64px;
-  border-bottom: solid 1px rgb(230, 230, 230);
+  height: 80px;
+  border-bottom: solid 2px #F0F0F0;
   background-color: white;
   justify-content: space-between;
   padding: 0px 28px;
@@ -14,19 +14,20 @@
 }
 
 .logo{
-height: 40px;
+  height: 40px;
 }
 
 .link-space{
   display: flex;
   flex-direction: row;
+  gap: 36px;
 }
 
 .link-group{
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 28px;
+  gap: 36px;
 }
 
 .nav-link-active{
@@ -37,10 +38,83 @@ height: 40px;
   /* background-color: gray; */
   align-items: center;
   height: 100%;
+  box-sizing: border-box;
+}
+
+.nav-link{
+  color: #292a2b;
+}
+
+.nav-link:hover{
+  color: #3A1914;
+  cursor: pointer;
 }
 
 .button-group{
   display: flex;
   flex-direction: row;
+  /* height: 44px; */
+  align-items: center;
+  gap: 8px;
+}
+
+.subscribe-cta{
+  padding: 0px 18px 0px 18px;
+  background-color: #3A1914 ;
+  border-radius: 12px;
+  color: white;
+  height: 48px;
+  border: none;
+}
+
+.subscribe-cta:hover{
+  background-color:#471f19;
+  cursor: pointer;
+}
+
+
+.appearance-toggle{
+  padding: 0px 16px 0px 16px;
+  background-color: #ffffff ;
+  border-radius: 12px;
+  color: #292a2b;
+  height: 48px;
+  border: solid 1px #e3e3e3;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.appearance-toggle i{
+  font-size: 24px;
+}
+
+.appearance-toggle:hover{
+  background-color: #F0F0F0;
+  border: solid 1px #F0F0F0;
+  cursor: pointer;
+}
+
+.menu-toggle{
+  padding: 0px 16px 0px 16px;
+  background-color: #ffffff ;
+  border-radius: 12px;
+  color: #292a2b;
+  height: 48px;
+  border: solid 1px #e3e3e3;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.menu-toggle i{
+  font-size: 24px;
+}
+
+.menu-toggle:hover{
+  background-color: #F0F0F0;
+  border: solid 1px #F0F0F0;
+  cursor: pointer;
 }
 
