@@ -14,7 +14,7 @@
 
 .image-section-container{
   flex: 1;
-  background-image: linear-gradient(to bottom right, #dedcd9, #e8e2d9);
+  background-image: linear-gradient(to bottom right, #ECE3E4, #E9E0DE);
   background-color: #e8e2d9;
   height: 100%;
   height: auto;
@@ -67,14 +67,24 @@
   justify-content: center;
   border: white solid 4px;
   overflow: hidden;
+  transition: all 0.45s ease;
 
   
 }
 
 .video-thumbnail{
-  height: 110%;
+  height: 120%;
   object-fit: cover;
 }
+
+#cooking-process-video:hover{
+  height: 200px;
+  width: 130px;
+  border-radius: 20px;
+}
+
+
+
 
 .play{
   position: absolute;
@@ -91,33 +101,45 @@
 
 .play:hover{
   cursor: pointer;
-
 }
 
 #configuration-main-container{
   position: fixed;
-  bottom: 0px;
+  bottom: 30px;
   left: 50%;
   right: 50%;
-  box-shadow: -2px 4px 20px rgba(0, 0, 0, 0.086);
+  transform: translate(-50%, -50%);
+  box-shadow: -2px 4px 20px rgba(0, 0, 0, 0.083);
   border-radius: 20px;
-  border: solid 1px rgb(217, 217, 217);
-  background-color: rgb(246, 246, 246);
-  height: 30px;
+  border: solid 1px rgb(234, 234, 234);
+  background-color: rgb(255, 255, 255);
+  /* height: 30px; */
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: white solid 4px; */
-  overflow: hidden;
-  padding: 12px 12px 12px 12px;
+  /* padding: 12px 12px 12px 12px; */
   z-index: 200;
-  width: 300px;
-  transform: translate(-50%, -50%);
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  
+}
+
+.stepper-group{
+  display: flex;
+  flex-direction: row;
+}
+
+.configuration-action{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
 }
 
 .content-section-container{
   flex: 1;
-  background-color: rgb(238, 242, 246);
+  background-color: rgb(255, 255, 255);
   height: auto;
   overflow-y: scroll;
 }
