@@ -129,15 +129,35 @@
 .stepper-group{
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.stepper-count{
+height: 40px;
+width: 40px;
+border: none;
+border-radius: 200px;
+background-color: rgb(234, 234, 234);
 }
 
 .configuration-action{
   display: flex;
   flex-direction: row;
-  gap: 8px;
+  gap: 4px;
 }
 
-.content-section-container{
+.cook-cta{
+  background-image: linear-gradient(285deg, rgb(223, 135, 93) -0.22%, rgb(205, 91, 43) 100%);
+  border: none;
+  border-radius: 12px;
+  color: white;
+  
+
+}
+
+
+  .content-section-container{
   flex: 1;
   background-color: rgb(255, 255, 255);
   height: auto;
