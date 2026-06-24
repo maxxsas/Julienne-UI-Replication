@@ -110,20 +110,25 @@
   right: 50%;
   transform: translate(-50%, -50%);
   box-shadow: -2px 4px 20px rgba(0, 0, 0, 0.083);
-  border-radius: 20px;
+  border-radius: 28px;
   border: solid 1px rgb(234, 234, 234);
   background-color: rgb(255, 255, 255);
   /* height: 30px; */
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding: 12px 12px 12px 12px; */
+  padding: 8px 8px; 
   z-index: 200;
-  width: 400px;
+  width: 460px;
   display: flex;
   flex-direction: row;
   gap: 24px;
-  
+  font-family: Roboto, arial;
+  font-size: 14px;
+}
+
+#configuration-main-container i{
+  font-size: 16px;
 }
 
 .stepper-group{
@@ -131,14 +136,37 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  gap: 8px;
 }
 
 .stepper-count{
-height: 40px;
-width: 40px;
+/* height: 40px;
+width: 40px; */
+border: none;
+border-radius: 200px;
+background-color: #292a2b00;
+padding: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.stepper-count:hover{
+/* height: 40px;
+width: 40px; */
 border: none;
 border-radius: 200px;
 background-color: rgb(234, 234, 234);
+padding: 8px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.stepper-count button{
+  padding: 0;
+  margin: 0;
+  background-color: 
 }
 
 .configuration-action{
@@ -147,11 +175,38 @@ background-color: rgb(234, 234, 234);
   gap: 4px;
 }
 
+.play-cta{
+  padding: 0px 16px 0px 16px;
+  background-color: #ffffff ;
+  border-radius: 16px;
+  color: #292a2b;
+  height: 48px;
+  border: solid 1px #e3e3e3;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.save-cta{
+  padding: 0px 16px 0px 16px;
+  background-color: #ffffff ;
+  border-radius: 16px;
+  color: #292a2b;
+  height: 48px;
+  border: solid 1px #e3e3e3;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 8px;
+}
+
 .cook-cta{
   background-image: linear-gradient(285deg, rgb(223, 135, 93) -0.22%, rgb(205, 91, 43) 100%);
   border: none;
-  border-radius: 12px;
+  border-radius: 20px;
   color: white;
+  padding: 0px 24px;
   
 
 }
