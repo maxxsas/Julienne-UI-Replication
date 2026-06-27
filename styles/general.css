@@ -4,8 +4,10 @@ body{
   margin: 0;
   position: relative;
 
-   font-family: Roboto, arial;
-   font-size: 14px;
+  font-family: sans-serif, arial;
+  font-size: 14px;
+
+  /* box-sizing: border-box; */
 }
 
 h1{

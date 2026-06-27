@@ -166,7 +166,7 @@ justify-content: center;
 .stepper-count button{
   padding: 0;
   margin: 0;
-  background-color: 
+  /* background-color:  */
 }
 
 .configuration-action{
@@ -278,6 +278,15 @@ text-decoration: underline;
   font-size: 24px;
   line-height: 32px;
   margin-bottom: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+
+#sub-header-icon{
+  height: 20px;
+
 }
 
 .detail-grid{
@@ -292,7 +301,11 @@ text-decoration: underline;
   height: 70px;
   margin-left: -1px;
   margin-bottom: -1px;
-  padding: 20px;
+  padding: 22px 16px 22px 24px;
+  text-overflow: ellipsis;
+  overflow:hidden; 
+  white-space:nowrap; 
+
 }
 
 .detail-grid-item{
@@ -312,5 +325,18 @@ text-decoration: underline;
 .grid-item-data{
   font-size: 16px;
   color: black;
+ 
+}
+
+.grid-item-sub-data{
+  color: #0009;
+  font-size: 14px;
+}
+
+.details-discalaimer{
+  color: #0006;
+  margin-top: 4px;
+  font-size: 12px;
+  margin-bottom: 52px;
 }
  
