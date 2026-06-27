@@ -268,7 +268,7 @@ text-decoration: underline;
 }
 
 /* -------- classes using google fonts ---------*/
-.recipe-header, .sub-header, .grid-item-data{
+.recipe-header, .sub-header, .grid-item-data, .insight-content, .sign-in-cta{
  font-family: "EB Garamond", serif;
 }
 /* -------- classes using google fonts ---------*/
@@ -337,6 +337,40 @@ text-decoration: underline;
   color: #0006;
   margin-top: 4px;
   font-size: 12px;
-  margin-bottom: 52px;
+  margin-bottom: 62px;
 }
  
+.insight-banner{
+  display: flex;
+  flex-direction: row;
+  line-height: 24px;
+  background-color: #0000000c;
+  padding: 28px;
+  border-radius: 20px;
+  gap: 20px;
+  align-items: center;
+}
+
+.insight-image{
+  height: 90px;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.insight-content{
+  font-size: 16px;
+  color: #1d1d1d;
+}
+
+.sign-in-cta{
+  font-size: 16px;
+  text-decoration: underline;
+  color: #1d1d1d;
+
+}
+
+.sign-in-cta:hover{
+  color: rgb(223, 135, 93);
+  cursor: pointer;
+
+}
