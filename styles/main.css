@@ -517,6 +517,7 @@ text-decoration: underline;
   font-size: 18px;
   gap:  64px;
   position: relative;
+ 
   
 }
 
@@ -555,4 +556,23 @@ text-decoration: underline;
   position: absolute;
   left: 20px;
   bottom: 20px;
+}
+
+.tags-container{
+  padding-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag{
+color: #00000080;
+background-color: rgb(246, 246, 246);
+font-size: 12px;
+border-radius: 10px;
+padding: 10px 12px;
+}
+
+.tag:hover{
+  background-color: rgb(242, 242, 242);
 }

@@ -1,0 +1,18 @@
+.footer-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.company-and-terms{
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  color: #00000080;
+  justify-content: space-between;
+}
+
+.footer-disclaimer{
+  font-size: 12px;
+  font-style: italic;
+  color: #00000080;
+}
