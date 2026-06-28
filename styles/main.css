@@ -269,7 +269,7 @@ text-decoration: underline;
 
 /* -------- classes using google fonts ---------*/
 .recipe-header, .sub-header, .grid-item-data, .insight-content, .sign-in-cta,
-.step-number, .step-instruction {
+.step-number, .step-instruction, .meal-name {
  font-family: "EB Garamond", serif;
 }
 /* -------- classes using google fonts ---------*/
@@ -494,4 +494,65 @@ text-decoration: underline;
 .step-ingredient-quantity{
   color: #00000080;
   line-height: 20px;
+}
+
+.spacer{
+  display: block;
+  margin-bottom: 60px;
+}
+
+.meal-suggestion-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.meal-suggestion{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: rgb(246 246 246);
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 18px;
+  gap:  64px;
+  position: relative;
+  
+}
+
+.meal-suggestion:hover{
+  cursor: pointer;
+  background-color: rgb(238, 238, 238);
+  
+}
+
+
+.meal-name{
+  font-size: 18px;
+}
+
+.meal-photo-container{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  
+}
+.meal-photo{
+  height: 144px;
+  width: 144px;
+  object-fit: cover;
+  border-radius: 200px;
+}
+
+.phantom-space{
+  display: block;
+  /* height: 60px; */
+}
+
+.meal-prep-duration{
+  color: #00000080;
+  font-size: 14px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
 }
