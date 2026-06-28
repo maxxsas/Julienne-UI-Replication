@@ -268,7 +268,8 @@ text-decoration: underline;
 }
 
 /* -------- classes using google fonts ---------*/
-.recipe-header, .sub-header, .grid-item-data, .insight-content, .sign-in-cta{
+.recipe-header, .sub-header, .grid-item-data, .insight-content, .sign-in-cta,
+.step-number, .step-instruction {
  font-family: "EB Garamond", serif;
 }
 /* -------- classes using google fonts ---------*/
@@ -277,7 +278,7 @@ text-decoration: underline;
   font-weight: 300;
   font-size: 24px;
   line-height: 32px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
   display: flex;
   flex-direction: row;
   gap: 12px;
@@ -344,11 +345,12 @@ text-decoration: underline;
   display: flex;
   flex-direction: row;
   line-height: 24px;
-  background-color: #0000000c;
+  background-color: rgb(246 246 246);
   padding: 28px;
   border-radius: 20px;
   gap: 20px;
   align-items: center;
+  margin-bottom: 62px;
 }
 
 .insight-image{
@@ -373,4 +375,123 @@ text-decoration: underline;
   color: rgb(223, 135, 93);
   cursor: pointer;
 
+}
+
+.ingredients-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+
+  margin-bottom: 82px;
+}
+
+/* .ingredients-container p{
+  margin: 0px;
+  padding: 0px;
+} */
+
+.ingredient-item{
+  display: flex;
+  /* width: 92.7px; */
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+  margin-right: 8px;
+}
+
+
+
+.ingredient-image{
+  height: 100px; 
+  max-width: 108px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+
+.ingredient-content {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ 
+  
+}
+
+
+.ingredient-name{
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 0px;
+  line-height: 16px;
+  
+}
+
+.ingredient-description{
+  color: #00000080;
+  font-size: 12px;
+  line-height: 0px;
+}
+
+.cooking-steps-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.horizontal-divider{
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid rgb(232, 232, 232);
+  /* margin-top: 32px; */
+  margin-bottom: 32px;
+}
+
+.step-container{
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  margin-bottom: 32px;
+}
+
+.step-number{
+  font-size: 80px;
+  color: #0000004d;
+  line-height: 60px;
+}
+
+.step-content{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.step-instruction{
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.step-ingredients-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.step-ingredient{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(246 246 246);
+  padding: 14px 16px;
+  border-radius: 20px;
+  gap: 0;
+}
+
+.step-ingredient-title{
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.step-ingredient-quantity{
+  color: #00000080;
+  line-height: 20px;
 }
