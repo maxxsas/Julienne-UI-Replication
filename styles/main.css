@@ -576,3 +576,24 @@ padding: 10px 12px;
 .tag:hover{
   background-color: rgb(242, 242, 242);
 }
+
+
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.company-and-terms{
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  color: #00000080;
+  justify-content: space-between;
+}
+
+.footer-disclaimer{
+  font-size: 12px;
+  font-style: italic;
+  color: #00000080;
+}
